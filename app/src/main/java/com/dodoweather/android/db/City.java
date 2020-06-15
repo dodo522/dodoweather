@@ -1,5 +1,12 @@
-public class City extends DataSupport
-{
+package com.dodoweather.android.db;
+
+import org.litepal.crud.DataSupport;
+
+/**
+ * Created by Administrator on 2020/6/15.
+ */
+
+public class City extends DataSupport{
     private int id;
     private String cityName;
     private int cityCode;
