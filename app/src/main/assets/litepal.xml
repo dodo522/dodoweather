@@ -1,0 +1,13 @@
+<litepal>
+
+    <dbname value="dodo_weather" />
+
+    <version value="1" />
+
+    <list>
+        <mapping class="com.dodoweather.android.db.Province" />
+        <mapping class="com.dodoweather.android.db.City" />
+        <mapping class="com.dodoweather.android.db.Country" />
+    </list>
+
+</litepal>
